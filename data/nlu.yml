@@ -1,0 +1,136 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_tourist_destination
+  examples: |
+    - What are some destinations in Mumbai to explore?
+    - I want to go roaming
+    - I am bored and I want to do something enjoyable
+    - Let's go roaming
+    - Popular Destinations
+    - Can you tell me more destinations? 
+    - How about some more info?
+    - Tell me more
+    - I want more info
+    - Thankyou bot and tell me more
+    - Some more info please
+    - Information needed more
+
+- intent: ask_restaurant
+  examples: |
+    - What are some of the best restaurants in Mumbai to explore?
+    - I want to go to eat
+    - I want something good and wholesome
+    - Let's go out to eat
+    - Popular Destinations to eat good food
+    - Can you tell me about more restaurants? 
+    - Any other good restaurants to explore
+    - How about some more restaurants?
+    - I want to try out something new
+    - I am too lazy to cook
+    - I want to eat the best food
+
+- intent: out_of_scope
+  examples: |
+    - Let's get married
+    - I want to kill you
+    - I have a machine gun brother
+    - I want GTA
+    - Buy me phone
+    - Buy me car
+    - Buy me bike
+    - Buy me beast
+    - I want million dollars
+    - My icecream is melting
+    - Help Me buddy. I know you can call the winter god and save my icecream
+
